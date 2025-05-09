@@ -1,14 +1,16 @@
 ---
-title: "Paper Title Number 1"
+title: "Global, regional, and national epidemiology of ischemic stroke in young adults, 1990–2021"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2025-jnl-young-stroke
+excerpt: 'A comprehensive study on the global, regional, and national epidemiology of ischemic stroke in young adults from 1990 to 2021. The main contribution is building machine learning models to analyze the data.'
+date: 2025-04-01
+venue: 'Journal of Neurology, 272:354 (2025)'
+paperurl: 'https://rdcu.be/elo37'
+citation: 'Mingli He*, Shun Zhang, Xun Liu, <b>Yanan He</b>, Xinru Gu, Chaoyan Yue. (2025). "Global, regional, and national epidemiology of ischemic stroke in young adults, 1990–2021." <i>Journal of Neurology</i>, 272:354.'
+authors: 'Mingli He*, Shun Zhang, Xun Liu, Yanan He, Xinru Gu, Chaoyan Yue'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+[J Neurol ’25 ] Mingli He*, Shun Zhang, Xun Liu, **Yanan He**, Xinru Gu, Chaoyan Yue.  
+"Global, regional, and national epidemiology of ischemic stroke in young adults, 1990–2021."  
+[*Journal of Neurology*, 272:354 (2025)](https://rdcu.be/elo37)

@@ -1,152 +1,168 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Yanan He",
+    "email": "he795@purdue.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://sites.google.com/view/yananhe/home",
+    "summary": "CS, Math & Stats @ Purdue | Aspiring AI Researcher. Research interests include AI for science, trustworthy/interpretable AI, and foundation models.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
+      "address": "102 N. Chauncey Ave",
+      "postalCode": "47906",
+      "city": "West Lafayette",
       "countryCode": "US",
-      "region": ""
+      "region": "IN"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=zEtlH9kAAAAJ&hl=en"
       },
       {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "network": "LinkedIn",
+        "username": "yanan-he-echoo113",
+        "url": "https://www.linkedin.com/in/yanan-he-echoo113/"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Echoo113",
+        "url": "https://github.com/Echoo113"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "position": "Research Assistant | Machine Learning",
+      "company": "Stony Brook University, Stony Brook, NY",
+      "startDate": "2025-05",
+      "endDate": "Present",
+      "summary": "Advisor: Tengfei Ma",
+      "highlights": [
+        "Project I: MTS-JEPA: Multi-Resolution Joint-Embedding Predictive Architecture for Time-Series Anomaly Prediction.",
+        "Led a self-supervised framework for time-series anomaly prediction using a multiscale JEPA-style architecture.",
+        "Addressed JEPA representation collapse with a soft-quantized codebook latent space.",
+        "Achieved state-of-the-art benchmark performance; manuscript submitted to ICML 2026.",
+        "Project II: Walking in the Ball: Hyperbolic Latent Navigation for Structured Thought Generation.",
+        "Leading hyperbolic latent navigation research for LLM reasoning using Poincare-ball embeddings and geodesic flows.",
+        "Designing training and evaluation pipeline; target submission to NeurIPS 2026."
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "position": "Research Assistant | AI for Healthcare",
+      "company": "Nanjing Medical University, Jiangsu, China",
+      "startDate": "2025-02",
+      "endDate": "2025-09",
+      "summary": "Advisor: Mingli He. Project: Machine Learning and Global Epidemiological Modeling for Stroke Risk and Outcome Prediction.",
+      "highlights": [
+        "Served as co-corresponding author with methodological oversight for an interdisciplinary team.",
+        "Contributed to design and evaluation of an interpretable XGBoost model for clinical decision support (ROC-AUC > 0.90).",
+        "Guided statistical and machine learning modeling using generalized additive models (GAMs).",
+        "Contributed to manuscript preparation and peer-review revision."
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "position": "Research Assistant | Data Science",
+      "company": "Fudan University, Shanghai, China",
+      "startDate": "2024-11",
+      "endDate": "2025-04",
+      "summary": "Advisor: Chaoyan Yue. Project: Global Epidemiological Modeling of Ischemic Stroke in Young Adults (1990-2021).",
+      "highlights": [
+        "Analyzed global ischemic stroke trends using GBD 2021 data with Joinpoint regression and Bayesian APC models.",
+        "Contributed to data cleaning, statistical analysis, figure preparation, and methods/results writing."
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "education": [
+    {
+      "institution": "Purdue University",
+      "area": "Computer Science & Mathematics-Statistics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2023-08",
+      "endDate": "2026-05",
+      "gpa": "3.96/4.0",
+      "courses": [
+        "Machine Learning",
+        "Data Mining",
+        "Intro to AI",
+        "Algorithms Analysis",
+        "Data Structures",
+        "System Programming",
+        "Computer Architecture",
+        "Numerical Methods",
+        "Stochastic Processes",
+        "Linear Algebra",
+        "Probability",
+        "Statistical Inference",
+        "Real Analysis"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Python", "Java", "C/C++", "Assembly", "R", "SQL", "MATLAB", "JavaScript", "HTML/CSS"]
+    },
+    {
+      "name": "Expertise",
+      "keywords": ["Deep Learning", "Machine Learning", "Statistical Modeling", "PyTorch", "TensorFlow", "scikit-learn", "Transformers"]
+    },
+    {
+      "name": "DevOps & Cloud",
+      "keywords": ["Git", "Kaggle", "Linux", "Docker", "AWS (EC2, S3, Lambda)", "Google Cloud", "Vast.ai"]
+    },
+    {
+      "name": "Web Development",
+      "keywords": ["Flask", "FastAPI", "React.js", "Node.js", "RESTful API design", "PostgreSQL", "JSON"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research Interests",
+      "keywords": ["AI for science", "Trustworthy/interpretable AI", "Foundation models"]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "MTS-JEPA: Multi-Resolution Joint-Embedding Predictive Architecture for Time-Series Anomaly Prediction",
+      "publisher": "arXiv (Under review at ICML 2026)",
+      "releaseDate": "2026-02-01",
+      "website": "https://arxiv.org/abs/2602.04643",
+      "summary": "He, Y., Wen, Y., Wang, X., & Ma, T.* (2026)."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Development and validation of a web-based machine learning model for predicting early neurological deterioration following stroke thrombolysis: A multicenter study",
+      "publisher": "Journal of Medical Internet Research",
+      "releaseDate": "2025-01-01",
+      "website": "https://doi.org/10.2196/77858",
+      "summary": "Li, J., Chang, H., Du, S., et al., He, Y.* & He, M.* (2025). Journal of Medical Internet Research, 27, e77858."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Socioeconomic gradients in inflammatory risks and global stroke mortality",
+      "publisher": "Under review at The Lancet Neurology",
+      "releaseDate": "2025-01-01",
+      "website": "",
+      "summary": "Li, J., Zhang, C., Zhang, H., Gu, X., He, Y.* & He, M.* (2025)."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Global, regional, and national epidemiology of ischemic stroke in young adults, 1990-2021",
+      "publisher": "Journal of Neurology",
+      "releaseDate": "2025-01-01",
+      "website": "https://doi.org/10.1007/s00415-025-13082-4",
+      "summary": "He, M., Zhang, S., Liu, X., He, Y., Gu, X.* & Yue, C.* (2025). Journal of Neurology, 272(5), 354."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }

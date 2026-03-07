@@ -20,11 +20,10 @@ I'm particularly interested in interdisciplinary work and excited to collaborate
 
 ## 💡 Research Interests
 
-My passion lies in making AI more personalized and practical through:
-- Statistical modeling and Natural Language Processing
-- Emotion-aware AI systems
-- Bayesian inference in machine learning
-- Real-world applications of AI
+My research interests are:
+- AI for science
+- Trustworthy/interpretable AI
+- Foundation models
 
 Recent projects include:
 - A travel recommendation system based on emotions and personality

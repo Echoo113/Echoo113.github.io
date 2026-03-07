@@ -9,13 +9,17 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Yanan He's Personal Website"
+title                    : "Echo He"
 title_separator          : "-"
 name                     : &name "Yanan He"
-description              : &description "Personal website showcasing my work and interests"
+description              : &description "CS, Math & Stats @ Purdue | Aspiring AI Researcher"
 url                      : https://echoo113.github.io
 baseurl                  : ""
 repository               : "Echoo113/Echoo113.github.io"
+author_profile_links:
+  google_scholar         : "https://scholar.google.com/citations?user=zEtlH9kAAAAJ&hl=en"
+  linkedin               : "https://www.linkedin.com/in/yanan-he-echoo113/"
+  github                 : "https://github.com/Echoo113"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,7 +30,7 @@ author:
   name             : "Yanan He"
   pronouns         : 
   bio              : "Welcome to my personal website"
-  location         : 
+  location         : "West Lafayette, IN"
   employer         : 
   uri              : 
   email            : "he795@purdue.edu"
@@ -34,12 +38,12 @@ author:
   # Academic websites
   academia         : 
   arxiv            : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=zEtlH9kAAAAJ&hl=en"
   orcid            : 
 
   # Social media and professional profiles
   github           : "Echoo113"
-  linkedin         : "yanan-he-23348a2b1"
+  linkedin         : "yanan-he-echoo113"
   twitter          : 
 
 # Publication Category - The following the list of publication categories and their headings

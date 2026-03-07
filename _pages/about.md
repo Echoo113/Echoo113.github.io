@@ -9,7 +9,7 @@ redirect_from:
 
 I am Yanan He (何雅男). My Chinese name can be interpreted as elegance and strength.
 
-You can call me Echo—Echo is my English name.
+Please call me Yanan He.
 
 I study computer science, mathematics, and statistics at Purdue University, and I complete this triple-major track in three years.
 

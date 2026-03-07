@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Echo He"
+title                    : "Yanan He"
 title_separator          : "-"
 name                     : &name "Yanan He"
 description              : &description "CS, Math & Stats @ Purdue | Aspiring AI Researcher"

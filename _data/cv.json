@@ -135,7 +135,7 @@
   "publications": [
     {
       "name": "MTS-JEPA: Multi-Resolution Joint-Embedding Predictive Architecture for Time-Series Anomaly Prediction",
-      "publisher": "arXiv (Under review at ICML 2026)",
+      "publisher": "arXiv",
       "releaseDate": "2026-02-01",
       "website": "https://arxiv.org/abs/2602.04643",
       "summary": "He, Y., Wen, Y., Wang, X., & Ma, T.* (2026)."

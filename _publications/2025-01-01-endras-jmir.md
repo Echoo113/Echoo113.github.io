@@ -3,7 +3,7 @@ title: "Development and validation of a web-based machine learning model for pre
 collection: publications
 category: manuscripts
 permalink: /publication/2025-endras-jmir
-date: 2025-01-01
+date: 2025-12-31
 venue: "Journal of Medical Internet Research, 27, e77858 (2025)"
 paperurl: "https://doi.org/10.2196/77858"
 excerpt: "Multicenter study (n=1,927) introducing ENDRAS, an XGBoost-based model using 6 routine clinical variables to predict END after thrombolysis and guide risk-stratified post-thrombolysis management."

@@ -9,6 +9,12 @@ author_profile: false
 
 I am Yanan He (何雅男). My Chinese name can be interpreted as elegance and strength.
 
+You can call me Echo—Echo is my English name.
+
 I study computer science, mathematics, and statistics at Purdue University, and I complete this triple-major track in three years.
 
-My research interests are AI for science, trustworthy/interpretable AI, and foundation models.
+My research interests include:
+
+- **AI for Science (AI4S):** Developing machine learning methods for scientific and biomedical problems, especially time-series modeling, anomaly prediction, and data-driven decision support.
+- **Trustworthy/Interpretable AI:** Building robust and transparent models that support reliable risk stratification and clinically meaningful interpretation.
+- **Foundation Models:** Exploring representation learning and scalable pretraining objectives for stronger generalization and adaptation in real-world tasks.

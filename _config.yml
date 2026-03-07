@@ -26,7 +26,7 @@ author_profile_links:
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "seagull.JPG"
+  avatar           : "website_photo.JPG"
   name             : "Yanan He"
   pronouns         : 
   bio              : "Welcome to my personal website"

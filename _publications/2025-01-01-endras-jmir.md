@@ -7,7 +7,6 @@ date: 2025-12-31
 venue: "Journal of Medical Internet Research, 27, e77858 (2025)"
 paperurl: "https://doi.org/10.2196/77858"
 excerpt: "Multicenter study (n=1,927) introducing ENDRAS, an XGBoost-based model using 6 routine clinical variables to predict END after thrombolysis and guide risk-stratified post-thrombolysis management."
-citation: "Li, J., Chang, H., Du, S., et al., <b>He, Y.</b>*, & He, M.* (2025). Development and validation of a web-based machine learning model for predicting early neurological deterioration following stroke thrombolysis: A multicenter study. <i>Journal of Medical Internet Research</i>, 27, e77858. https://doi.org/10.2196/77858"
 authors: "Li, J.; Chang, H.; Du, S.; et al.; He, Y.*; He, M.*"
 ---
 

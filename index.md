@@ -5,7 +5,7 @@ permalink: /
 author_profile: false
 ---
 
-<img src="/images/website_photo.JPG" alt="Yanan He" style="width: 100%; height: auto; display: block; margin-bottom: 1rem;" />
+<img src="/images/website_photo.JPG" alt="Yanan He" style="width: 120%; max-width: none; height: auto; display: block; margin: 0 0 1rem -10%;" />
 
 I am **Yanan He (何雅男)**, an undergraduate student at **Purdue University** pursuing a **B.S. in Computer Science, Mathematics, and Statistics**.
 

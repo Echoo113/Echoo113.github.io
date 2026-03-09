@@ -11,10 +11,18 @@ I am Yanan He (何雅男). My Chinese name can be interpreted as elegance and st
 
 You can call me Yanan or Echo. Echo is my English name.
 
-I study computer science, mathematics, and statistics at Purdue University, and I **complete 3 majors in 3 years**.
+<img src="/images/website_photo.JPG" alt="Yanan He" style="width: 120%; max-width: none; height: auto; display: block; margin: 0 0 1rem -10%;" />
 
-My research interests include:
+I am **Yanan He (何雅男)**, an undergraduate student at **Purdue University** pursuing a **B.S. in Computer Science, Mathematics, and Statistics**.
 
-- **AI for Science (AI4S):** Developing machine learning methods for scientific and biomedical problems, especially time-series modeling, anomaly prediction, and data-driven decision support.
-- **Trustworthy/Interpretable AI:** Building robust and transparent models that support reliable risk stratification and clinically meaningful interpretation.
-- **Foundation Models:** Exploring representation learning and scalable pretraining objectives for stronger generalization and adaptation in real-world tasks.
+My research interests broadly lie in **machine learning and foundation models**, with a focus on developing reliable learning systems and applying them to scientific and real-world domains.
+
+### Methodology
+
+- **Foundation Models:** Scalable pretraining and representation learning for building adaptable and generalizable machine learning systems.
+- **Trustworthy and Interpretable Machine Learning:** Robust, reliable, and transparent learning methods that enable trustworthy decision-making.
+
+### Applications
+
+- **Natural Language Processing (NLP):** Language modeling and text understanding for scientific and data-intensive domains.
+- **AI for Science (AI4S):** Machine learning approaches for scientific discovery, including time-series modeling, anomaly detection, and data-driven analysis.

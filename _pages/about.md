@@ -7,12 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-I am Yanan He (何雅男). My Chinese name can be interpreted as elegance and strength.
-
-You can call me Yanan or Echo. Echo is my English name.
-
-<img src="/images/website_photo.JPG" alt="Yanan He" style="width: 38%; max-width: 340px; height: auto; float: left; margin: 0.25rem 1rem 0.75rem 0;" />
-
 I am **Yanan He (何雅男)**, an undergraduate student at **Purdue University** pursuing a **B.S. in Computer Science, Mathematics, and Statistics**.
 
 My research interests broadly lie in **machine learning and foundation models**, with a focus on developing reliable learning systems and applying them to scientific and real-world domains.

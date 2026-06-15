@@ -30,3 +30,8 @@ redirect_from:
 </div>
 
 </div>
+
+<div class="about-hobbies">
+<h3>Beyond Research</h3>
+<p>I have practiced <strong>Chinese calligraphy</strong> for over ten years and play the <strong>erhu</strong> (Chinese violin). Outside of that, I enjoy <strong>traveling</strong>, <strong>swimming</strong>, and playing <strong>tennis</strong> and <strong>badminton</strong>.</p>
+</div>

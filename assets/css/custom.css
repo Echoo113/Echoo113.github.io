@@ -233,6 +233,27 @@
   line-height: 1.65;
 }
 
+/* Beyond Research section */
+.about-hobbies {
+  margin-top: 1.5em;
+}
+
+.about-hobbies h3 {
+  font-size: 0.95em;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid #e07b00;
+  padding-bottom: 0.3em;
+  display: inline-block;
+}
+
+.about-hobbies p {
+  font-size: 0.88em;
+  color: #444;
+  line-height: 1.7;
+}
+
 /* Page title */
 .page__title {
   font-size: 1.3em !important;

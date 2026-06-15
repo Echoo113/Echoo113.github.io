@@ -8,7 +8,8 @@ redirect_from:
 ---
 
 <div class="about-intro">
-<p>I am <strong>Yanan He (何雅男)</strong>, an M.S. student in Computer Science at <strong>Yale University</strong> (2026–present), where I work in the NLP lab advised by Prof. <a href="https://armancohan.com/">Arman Cohan</a>. Before Yale, I completed my B.S. in Computer Science, Mathematics, and Statistics at <strong>Purdue University</strong> (2023–2026), where I also collaborated with Prof. <a href="https://sites.google.com/site/matf0123/">Tengfei Ma</a> at Stony Brook University.</p>
+<p>I am <strong>Yanan He (何雅男)</strong>, an M.S. student in Computer Science at <strong>Yale University</strong> (2026–present), where I work in the NLP lab advised by Prof. <a href="https://armancohan.com/">Arman Cohan</a>.</p>
+<p>Before Yale, I completed my B.S. in Computer Science, Mathematics, and Statistics at <strong>Purdue University</strong> (2023–2026), where I also collaborated with Prof. <a href="https://sites.google.com/site/matf0123/">Tengfei Ma</a> at Stony Brook University.</p>
 </div>
 
 <div class="research-interests">

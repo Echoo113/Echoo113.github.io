@@ -19,7 +19,7 @@ author_profile: true
     <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
   </div>
   {% if post.authors %}
-    <div class="pub-authors">{{ post.authors }}</div>
+    <div class="pub-authors">{{ post.authors | markdownify | remove: "<p>" | remove: "</p>" }}</div>
   {% endif %}
   {% if post.venue %}
     <div class="pub-venue">{{ post.venue }}</div>

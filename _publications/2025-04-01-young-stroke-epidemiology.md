@@ -7,7 +7,7 @@ date: 2025-04-01
 venue: "Journal of Neurology, 272(5), 354 (2025)"
 paperurl: "https://doi.org/10.1007/s00415-025-13082-4"
 excerpt: "A global epidemiological analysis of ischemic stroke in young adults (1990–2021), characterizing burden trends across regions and countries."
-authors: "He, M.; Zhang, S.; Liu, X.; He, Y.; Gu, X.*; Yue, C.*"
+authors: "Mingli He, Shun Zhang, Xun Liu, **Yanan He**, Xinru Gu, Chaoyan Yue"
 ---
 
 ### Abstract (Brief Summary)

@@ -16,7 +16,7 @@ redirect_from:
 
 <div class="research-item">
   <span class="research-tag">LLM Post-Training</span>
-  <span class="research-desc">Reinforcement learning from human feedback, preference optimization, and instruction tuning to make language models safer and more useful.</span>
+  <span class="research-desc">Developing and implementing new RL methods for post-training, including online preference optimization (OPD) and beyond.</span>
 </div>
 
 

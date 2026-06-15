@@ -244,9 +244,9 @@
 /* Beyond Research section */
 .open-to {
   font-size: 0.88em;
-  color: #6d28d9;
-  background: #f5f0ff;
-  border-left: 3px solid #a78bfa;
+  color: #0f766e;
+  background: #f0fdfa;
+  border-left: 3px solid #5eead4;
   padding: 0.5em 0.9em;
   border-radius: 0 6px 6px 0;
   margin-bottom: 1.5em;
@@ -255,15 +255,15 @@
 .about-hobbies {
   margin-top: 1.8em;
   padding: 1.1em 1.3em;
-  background: linear-gradient(135deg, #fdf6ff 0%, #f0f7ff 100%);
-  border: 1px solid #e8dff5;
+  background: linear-gradient(135deg, #f0fdfa 0%, #e6fffa 100%);
+  border: 1px solid #99f6e4;
   border-radius: 12px;
 }
 
 .about-hobbies h3 {
   font-size: 0.95em;
   font-weight: 500;
-  color: #6d28d9;
+  color: #0f766e;
   margin-bottom: 0.3em;
   border-bottom: none;
   padding-bottom: 0;
@@ -274,7 +274,7 @@
 
 .hobby-intro {
   font-size: 0.82em;
-  color: #a07cc5;
+  color: #5eead4;
   margin: 0.2em 0 0.9em 0;
   font-style: italic;
 }
@@ -293,14 +293,14 @@
   font-weight: 400;
   color: #555;
   background: #fff;
-  border: 1px solid #e0d4f7;
+  border: 1px solid #99f6e4;
   border-radius: 20px;
   padding: 4px 13px;
-  box-shadow: 0 1px 3px rgba(109,40,217,0.06);
+  box-shadow: 0 1px 3px rgba(15,118,110,0.06);
 }
 
 .hobby-item em {
-  color: #b39ddb;
+  color: #5eead4;
   font-style: normal;
   font-size: 0.9em;
 }

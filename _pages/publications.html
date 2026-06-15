@@ -39,7 +39,8 @@ author_profile: true
     {% endif %}
   </div>
   {% if post.authors %}
-    <div class="pub-authors">{{ post.authors }}</div>
+    {% assign highlighted = post.authors | replace: "Yanan He", '<span class="my-name">Yanan He</span>' %}
+    <div class="pub-authors">{{ highlighted }}</div>
   {% endif %}
   {% if post.venue %}
     <div class="pub-venue">{{ post.venue }}</div>

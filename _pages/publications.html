@@ -6,14 +6,34 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap" style="font-size:0.88em; margin-bottom:1.2em; color:#555;">
+    Also see my <a href="{{site.author.googlescholar}}">Google Scholar profile</a>.
+  </div>
 {% endif %}
 
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+<div class="list__item" style="padding-bottom:1.1em; border-bottom:1px solid #eee; margin-bottom:0.8em;">
+  <h2 class="archive__item-title">
+    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+  </h2>
+  {% if post.authors %}
+    <p class="pub-authors">{{ post.authors }}</p>
+  {% endif %}
+  {% if post.venue %}
+    <p class="pub-venue">{{ post.venue }}</p>
+  {% endif %}
+  <div class="pub-links">
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}">Paper</a>
+    {% endif %}
+    {% if post.projecturl %}
+      <a href="{{ post.projecturl }}">Project Page</a>
+    {% endif %}
+    {% if post.codeurl %}
+      <a href="{{ post.codeurl }}">Code</a>
+    {% endif %}
+  </div>
+</div>
 {% endfor %}
-
-
-

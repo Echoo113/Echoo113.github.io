@@ -1,0 +1,131 @@
+/* ============================================================
+   Publication list — smaller title, cleaner layout
+   ============================================================ */
+
+.archive__item-title {
+  font-size: 1em !important;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0.15em;
+}
+
+.archive__item-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+.archive__item-title a:hover {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.pub-authors {
+  font-size: 0.85em;
+  color: #555;
+  margin: 0.1em 0;
+}
+
+.pub-authors strong {
+  color: #222;
+  font-weight: 600;
+}
+
+.pub-venue {
+  font-size: 0.85em;
+  color: #777;
+  font-style: italic;
+  margin: 0.1em 0 0.3em 0;
+}
+
+.pub-links {
+  font-size: 0.82em;
+  margin-top: 0.25em;
+}
+
+.pub-links a {
+  display: inline-block;
+  margin-right: 0.6em;
+  padding: 1px 7px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  color: #444;
+  text-decoration: none !important;
+  background: #f8f8f8;
+}
+
+.pub-links a:hover {
+  background: #0066cc;
+  color: #fff !important;
+  border-color: #0066cc;
+}
+
+.archive__item-excerpt {
+  font-size: 0.85em !important;
+  color: #666;
+  margin-top: 0.2em;
+}
+
+.list__item {
+  padding-bottom: 1.2em;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 0.2em;
+}
+
+.list__item:last-child {
+  border-bottom: none;
+}
+
+/* ============================================================
+   About page — cleaner intro section
+   ============================================================ */
+
+.about-intro {
+  margin-bottom: 1.8em;
+  line-height: 1.7;
+}
+
+.research-interests {
+  margin-top: 1.2em;
+}
+
+.research-interests h3 {
+  font-size: 1em;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 0.6em;
+  border-bottom: 2px solid #0066cc;
+  padding-bottom: 0.25em;
+  display: inline-block;
+}
+
+.research-item {
+  display: flex;
+  gap: 0.8em;
+  margin-bottom: 0.75em;
+  align-items: flex-start;
+}
+
+.research-tag {
+  flex-shrink: 0;
+  font-size: 0.75em;
+  font-weight: 700;
+  color: #0066cc;
+  background: #eef4ff;
+  border: 1px solid #c0d8f8;
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin-top: 2px;
+  white-space: nowrap;
+}
+
+.research-desc {
+  font-size: 0.9em;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Page title — make "About" and "Publications" smaller */
+.page__title {
+  font-size: 1.4em !important;
+  margin-bottom: 0.5em;
+}

@@ -7,10 +7,26 @@ redirect_from:
   - /about.html
 ---
 
-I am **Yanan He (何雅男)**, an M.S. student in Computer Science at **Yale University** (2-year track), advised by Prof. [Arman Cohan](https://armancohan.com/) in the NLP lab. I completed my B.S. in Computer Science, Mathematics, and Statistics at **Purdue University**. I have also collaborated with Prof. [Tengfei Ma](https://sites.google.com/site/matf0123/) at Stony Brook University.
+<div class="about-intro">
+<p>I am <strong>Yanan He (何雅男)</strong>, an M.S. student in Computer Science at <strong>Yale University</strong> (2-year track), advised by Prof. <a href="https://armancohan.com/">Arman Cohan</a> in the NLP lab. I completed my B.S. in Computer Science, Mathematics, and Statistics at <strong>Purdue University</strong>. I have also collaborated with Prof. <a href="https://sites.google.com/site/matf0123/">Tengfei Ma</a> at Stony Brook University.</p>
+</div>
 
-My research interests center on building **reliable and capable language model systems**, with a focus on three interconnected themes:
+<div class="research-interests">
+<h3>Research Interests</h3>
 
-- **LLM Post-Training:** Reinforcement learning from human feedback, preference optimization, and instruction tuning to make language models safer and more useful.
-- **Self-Evolving Agents:** Autonomous agents that learn from experience, self-improve, and adapt continuously in dynamic environments.
-- **Calibration & Reliability:** Accurate uncertainty estimation in model outputs and trustworthy evaluation along reasoning chains — including the reliability of LLM-as-Judge frameworks.
+<div class="research-item">
+  <span class="research-tag">LLM Post-Training</span>
+  <span class="research-desc">Reinforcement learning from human feedback, preference optimization, and instruction tuning to make language models safer and more useful.</span>
+</div>
+
+<div class="research-item">
+  <span class="research-tag">Self-Evolving Agents</span>
+  <span class="research-desc">Autonomous agents that learn from experience, self-improve, and adapt continuously in dynamic environments.</span>
+</div>
+
+<div class="research-item">
+  <span class="research-tag">Calibration & Reliability</span>
+  <span class="research-desc">Accurate uncertainty estimation in model outputs and trustworthy evaluation along reasoning chains — including the reliability of LLM-as-Judge frameworks.</span>
+</div>
+
+</div>

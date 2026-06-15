@@ -9,6 +9,7 @@ paperurl: "https://arxiv.org/abs/2605.24140"
 codeurl: "https://github.com/yuyuliu11037/HyperGuide"
 excerpt: "HyperGuide distills reasoning progress into a hyperbolic geometric signal that guides step-by-step LLM generation, yielding consistent gains especially on deeper reasoning chains."
 authors: "Yuyu Liu, Haotian Xu, **Yanan He**, Sarang Rajendra Patil, Mengjia Xu, Tengfei Ma"
+tags: ["LLM"]
 ---
 
 \[[Paper](https://arxiv.org/abs/2605.24140)\] \[[Code](https://github.com/yuyuliu11037/HyperGuide)\]

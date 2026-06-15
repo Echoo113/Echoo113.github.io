@@ -13,10 +13,30 @@ author_profile: true
 
 {% include base_path %}
 
+<!-- Search + Filter -->
+<div class="pub-controls">
+  <input type="text" id="pub-search" placeholder="Search by title or author..." oninput="filterPubs()">
+  <div class="pub-filters">
+    <button class="filter-btn active" onclick="setFilter('all', this)">All</button>
+    <button class="filter-btn tag-llm" onclick="setFilter('LLM', this)">LLM</button>
+    <button class="filter-btn tag-ts" onclick="setFilter('Time Series', this)">Time Series</button>
+    <button class="filter-btn tag-ai4s" onclick="setFilter('AI4Science', this)">AI4Science</button>
+  </div>
+</div>
+
+<div id="pub-list">
 {% for post in site.publications reversed %}
-<div class="pub-card">
+<div class="pub-card" data-tags="{{ post.tags | join: ',' }}" data-title="{{ post.title | downcase }}" data-authors="{{ post.authors | downcase | strip_html }}">
   <div class="pub-title">
     <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    {% if post.tags %}
+      {% for tag in post.tags %}
+        {% if tag == "LLM" %}<span class="pub-tag tag-llm">LLM</span>
+        {% elsif tag == "Time Series" %}<span class="pub-tag tag-ts">Time Series</span>
+        {% elsif tag == "AI4Science" %}<span class="pub-tag tag-ai4s">AI4Science</span>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
   </div>
   {% if post.authors %}
     <div class="pub-authors">{{ post.authors | markdownify | remove: "<p>" | remove: "</p>" }}</div>
@@ -26,14 +46,44 @@ author_profile: true
   {% endif %}
   <div class="pub-links">
     {% if post.paperurl %}
-      <a href="{{ post.paperurl }}">Paper</a>
+      <a href="{{ post.paperurl }}" class="btn-paper">Paper</a>
     {% endif %}
     {% if post.projecturl %}
-      <a href="{{ post.projecturl }}">Project Page</a>
+      <a href="{{ post.projecturl }}" class="btn-project">Project Page</a>
     {% endif %}
     {% if post.codeurl %}
-      <a href="{{ post.codeurl }}">Code</a>
+      <a href="{{ post.codeurl }}" class="btn-code">Code</a>
     {% endif %}
   </div>
 </div>
 {% endfor %}
+</div>
+
+<p id="pub-empty" style="display:none; color:#888; font-size:0.9em; margin-top:1em;">No publications match your search.</p>
+
+<script>
+var activeFilter = 'all';
+
+function setFilter(tag, btn) {
+  activeFilter = tag;
+  document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
+  btn.classList.add('active');
+  filterPubs();
+}
+
+function filterPubs() {
+  var query = document.getElementById('pub-search').value.toLowerCase();
+  var cards = document.querySelectorAll('.pub-card');
+  var visible = 0;
+  cards.forEach(function(card) {
+    var tags = card.getAttribute('data-tags');
+    var title = card.getAttribute('data-title');
+    var authors = card.getAttribute('data-authors');
+    var matchTag = (activeFilter === 'all') || (tags && tags.indexOf(activeFilter) !== -1);
+    var matchSearch = !query || title.indexOf(query) !== -1 || authors.indexOf(query) !== -1;
+    if (matchTag && matchSearch) { card.style.display = ''; visible++; }
+    else { card.style.display = 'none'; }
+  });
+  document.getElementById('pub-empty').style.display = visible === 0 ? '' : 'none';
+}
+</script>

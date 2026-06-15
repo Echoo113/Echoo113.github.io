@@ -63,19 +63,119 @@
   font-size: 0.78em;
   font-weight: 600;
   padding: 2px 10px;
-  border: 1px solid #b0bec5;
   border-radius: 12px;
-  color: #444;
   text-decoration: none !important;
+  transition: all 0.15s;
+  border: 1px solid transparent;
+}
+
+/* Paper = blue */
+.btn-paper {
+  background: #dbeafe;
+  color: #1d4ed8 !important;
+  border-color: #93c5fd !important;
+}
+.btn-paper:hover {
+  background: #1d4ed8 !important;
+  color: #fff !important;
+}
+
+/* Project = purple */
+.btn-project {
+  background: #ede9fe;
+  color: #6d28d9 !important;
+  border-color: #c4b5fd !important;
+}
+.btn-project:hover {
+  background: #6d28d9 !important;
+  color: #fff !important;
+}
+
+/* Code = green */
+.btn-code {
+  background: #dcfce7;
+  color: #15803d !important;
+  border-color: #86efac !important;
+}
+.btn-code:hover {
+  background: #15803d !important;
+  color: #fff !important;
+}
+
+/* ============================================================
+   Search + Filter controls
+   ============================================================ */
+
+.pub-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  align-items: center;
+  margin-bottom: 1.2em;
+}
+
+#pub-search {
+  flex: 1;
+  min-width: 180px;
+  padding: 5px 12px;
+  font-size: 0.88em;
+  border: 1px solid #d1d5db;
+  border-radius: 20px;
+  outline: none;
+}
+
+#pub-search:focus {
+  border-color: #0066cc;
+}
+
+.pub-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+}
+
+.filter-btn {
+  font-size: 0.78em;
+  font-weight: 600;
+  padding: 3px 12px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
   background: #f5f7fa;
+  color: #555;
+  cursor: pointer;
   transition: all 0.15s;
 }
 
-.pub-links a:hover {
-  background: #0066cc;
-  color: #fff !important;
-  border-color: #0066cc;
+.filter-btn.active, .filter-btn:hover {
+  background: #1a1a1a;
+  color: #fff;
+  border-color: #1a1a1a;
 }
+
+/* Tag-specific filter button colors */
+.filter-btn.tag-llm.active { background: #6d28d9; border-color: #6d28d9; }
+.filter-btn.tag-ts.active  { background: #0369a1; border-color: #0369a1; }
+.filter-btn.tag-ai4s.active { background: #15803d; border-color: #15803d; }
+
+/* ============================================================
+   Publication tags (inline badges)
+   ============================================================ */
+
+.pub-tag {
+  display: inline-block;
+  font-size: 0.68em;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 10px;
+  margin-left: 6px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.tag-llm  { background: #ede9fe; color: #6d28d9; border: 1px solid #c4b5fd; }
+.tag-ts   { background: #e0f2fe; color: #0369a1; border: 1px solid #7dd3fc; }
+.tag-ai4s { background: #dcfce7; color: #15803d; border: 1px solid #86efac; }
 
 /* ============================================================
    About page

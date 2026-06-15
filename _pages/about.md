@@ -16,7 +16,7 @@ redirect_from:
 
 <div class="research-item">
   <span class="research-tag">LLM Post-Training</span>
-  <span class="research-desc">Developing and implementing new RL methods for post-training, including online preference optimization (OPD) and beyond.</span>
+  <span class="research-desc">Developing and implementing new RL methods for post-training, including OPD and beyond.</span>
 </div>
 
 

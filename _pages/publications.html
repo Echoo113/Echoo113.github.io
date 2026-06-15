@@ -6,23 +6,23 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap" style="font-size:0.88em; margin-bottom:1.2em; color:#555;">
-    Also see my <a href="{{site.author.googlescholar}}">Google Scholar profile</a>.
-  </div>
+<p class="scholar-link">
+  Also see my <a href="{{site.author.googlescholar}}">Google Scholar profile</a>.
+</p>
 {% endif %}
 
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-<div class="list__item" style="padding-bottom:1.1em; border-bottom:1px solid #eee; margin-bottom:0.8em;">
-  <h2 class="archive__item-title">
+<div class="pub-card">
+  <div class="pub-title">
     <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-  </h2>
+  </div>
   {% if post.authors %}
-    <p class="pub-authors">{{ post.authors }}</p>
+    <div class="pub-authors">{{ post.authors }}</div>
   {% endif %}
   {% if post.venue %}
-    <p class="pub-venue">{{ post.venue }}</p>
+    <div class="pub-venue">{{ post.venue }}</div>
   {% endif %}
   <div class="pub-links">
     {% if post.paperurl %}

@@ -57,6 +57,14 @@
   margin: 0.1em 0 0.45em 0;
 }
 
+.pub-note {
+  margin-top: 0.4em;
+  font-size: 0.75em;
+  color: #888;
+  display: flex;
+  gap: 1em;
+}
+
 .pub-links {
   margin-top: 0.5em;
   display: flex;

@@ -7,8 +7,9 @@ date: 2025-12-31
 venue: "Journal of Medical Internet Research, 27, e77858 (2025)"
 paperurl: "https://doi.org/10.2196/77858"
 excerpt: "Multicenter study (n=1,927) introducing ENDRAS, an XGBoost-based model using 6 routine clinical variables to predict END after thrombolysis and guide risk-stratified post-thrombolysis management."
-authors: "Juan Li, Huanxian Chang, Shouyun Du, Chunyang Zhang, Han Zhang, Luming Li, Lingsheng Kong, Guodong Li, Tingting Liang, Ronghong Yang, Bingchao Xu, Xinyu Zhou, Guanghui Zhang, Yongan Sun, Xiaobing He, Bei Xu, Zaipo Li, Yanan He, Mingli He"
+authors: "Juan Li, Huanxian Chang, Shouyun Du, Chunyang Zhang, Han Zhang, Luming Li, Lingsheng Kong, Guodong Li, Tingting Liang, Ronghong Yang, Bingchao Xu, Xinyu Zhou, Guanghui Zhang, Yongan Sun, Xiaobing He, Bei Xu, Zaipo Li, Yanan He†, Mingli He"
 tags: ["AI4Science"]
+corresponding: true
 ---
 
 ### Abstract (Brief Summary)

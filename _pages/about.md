@@ -44,7 +44,7 @@ redirect_from:
   <div class="hobby-item">🏊 <span>Swimming</span></div>
   <div class="hobby-item">🎾 <span>Tennis</span></div>
   <div class="hobby-item">🏸 <span>Badminton</span></div>
-  <div class="hobby-item hobby-invite">🤝 <span>Always up for a sports meetup!</span></div>
+  <div class="hobby-item hobby-invite">🤝 <span>Always up for a sports meetup — tennis, badminton, swimming, or jogging!</span></div>
   <div class="hobby-item">📚 <span>Reading</span></div>
   <div class="hobby-item">🎬 <span>Watching Movies</span></div>
 </div>

@@ -59,8 +59,8 @@
 
 .pub-note {
   margin-top: 0.4em;
-  font-size: 0.62em;
-  color: #bbb;
+  font-size: 0.55em;
+  color: #ccc;
   display: flex;
   gap: 1em;
 }

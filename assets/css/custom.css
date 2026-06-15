@@ -44,6 +44,11 @@
   margin: 0.15em 0;
 }
 
+.my-name {
+  color: #1d4ed8;
+  font-weight: 700;
+}
+
 .pub-venue {
   font-size: 0.83em;
   color: #e07b00;

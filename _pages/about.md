@@ -32,7 +32,7 @@ redirect_from:
 </div>
 
 <div class="about-hobbies">
-<h3>Beyond Research</h3>
+<h3>Beyond Research ✨</h3>
 <p class="hobby-intro">Always happy to chat about any of these!</p>
 <div class="hobby-grid">
   <div class="hobby-item">🖌️ <span>Chinese Calligraphy <em>(10+ years)</em></span></div>

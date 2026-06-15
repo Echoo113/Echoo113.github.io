@@ -42,8 +42,8 @@ redirect_from:
   <div class="hobby-item">🎻 <span>Erhu <em>(Chinese violin)</em></span></div>
   <div class="hobby-item">✈️ <span>Traveling</span></div>
   <div class="hobby-item">🏊 <span>Swimming</span></div>
-  <div class="hobby-item">🎾 <span>Tennis</span></div>
-  <div class="hobby-item">🏸 <span>Badminton</span></div>
+  <div class="hobby-item">🎾 <span>Tennis <em>(happy to play together!)</em></span></div>
+  <div class="hobby-item">🏸 <span>Badminton <em>(happy to play together!)</em></span></div>
   <div class="hobby-item">📚 <span>Reading</span></div>
   <div class="hobby-item">🎬 <span>Watching Movies</span></div>
 </div>

@@ -305,6 +305,13 @@
   font-size: 0.9em;
 }
 
+.hobby-invite {
+  background: #f0fdf4;
+  border-color: #bbf7d0;
+  color: #15803d;
+  font-style: italic;
+}
+
 /* Page title */
 .page__title {
   font-size: 1.3em !important;

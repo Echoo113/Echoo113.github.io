@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Yanan He"
 title_separator          : "-"
 name                     : &name "Yanan He"
-description              : &description "CS, Math & Stats @ Purdue | Aspiring AI Researcher"
+description              : &description "M.S. CS @ Yale | NLP Lab | Advised by Arman Cohan"
 url                      : https://echoo113.github.io
 baseurl                  : ""
 repository               : "Echoo113/Echoo113.github.io"
@@ -30,9 +30,9 @@ author:
   name             : "Yanan He"
   pronouns         : 
   bio              : "Welcome to my personal website"
-  location         : "West Lafayette, IN"
-  employer         : 
-  uri              : 
+  location         : "New Haven, CT"
+  employer         : "Yale University"
+  uri              :
   email            : "he795@purdue.edu"
 
   # Academic websites

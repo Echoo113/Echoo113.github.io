@@ -33,5 +33,15 @@ redirect_from:
 
 <div class="about-hobbies">
 <h3>Beyond Research</h3>
-<p>I have practiced <strong>Chinese calligraphy</strong> for over ten years and play the <strong>erhu</strong> (Chinese violin). Outside of that, I enjoy <strong>traveling</strong>, <strong>swimming</strong>, playing <strong>tennis</strong> and <strong>badminton</strong>, <strong>reading</strong>, and <strong>watching movies</strong>. Always happy to chat about any of these!</p>
+<p class="hobby-intro">Always happy to chat about any of these!</p>
+<div class="hobby-grid">
+  <div class="hobby-item">🖌️ <span>Chinese Calligraphy <em>(10+ years)</em></span></div>
+  <div class="hobby-item">🎻 <span>Erhu <em>(Chinese violin)</em></span></div>
+  <div class="hobby-item">✈️ <span>Traveling</span></div>
+  <div class="hobby-item">🏊 <span>Swimming</span></div>
+  <div class="hobby-item">🎾 <span>Tennis</span></div>
+  <div class="hobby-item">🏸 <span>Badminton</span></div>
+  <div class="hobby-item">📚 <span>Reading</span></div>
+  <div class="hobby-item">🎬 <span>Watching Movies</span></div>
+</div>
 </div>

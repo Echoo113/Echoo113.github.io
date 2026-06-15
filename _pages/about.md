@@ -9,14 +9,8 @@ redirect_from:
 
 I am **Yanan He (何雅男)**, an undergraduate student at **Purdue University** pursuing a **B.S. in Computer Science, Mathematics, and Statistics**.
 
-My research interests broadly lie in **machine learning and foundation models**, with a focus on developing reliable learning systems and applying them to scientific and real-world domains.
+My research interests center on building **reliable and capable language model systems**, with a focus on three interconnected themes:
 
-### Methodology
-
-- **Foundation Models:** Scalable pretraining and representation learning for building adaptable and generalizable machine learning systems.
-- **Trustworthy and Interpretable Machine Learning:** Robust, reliable, and transparent learning methods that enable trustworthy decision-making.
-
-### Applications
-
-- **Natural Language Processing (NLP):** Language modeling and text understanding for scientific and data-intensive domains.
-- **AI for Science (AI4S):** Machine learning approaches for scientific discovery, including time-series modeling, anomaly detection, and data-driven analysis.
+- **LLM Post-Training:** Reinforcement learning from human feedback, preference optimization, and instruction tuning to make language models safer and more useful.
+- **Self-Evolving Agents:** Autonomous agents that learn from experience, self-improve, and adapt continuously in dynamic environments.
+- **Calibration & Reliability:** Accurate uncertainty estimation in model outputs and trustworthy evaluation along reasoning chains — including the reliability of LLM-as-Judge frameworks.

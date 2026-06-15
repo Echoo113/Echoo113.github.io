@@ -19,10 +19,6 @@ redirect_from:
   <span class="research-desc">Reinforcement learning from human feedback, preference optimization, and instruction tuning to make language models safer and more useful.</span>
 </div>
 
-<div class="research-item">
-  <span class="research-tag">Self-Evolving Agents</span>
-  <span class="research-desc">Autonomous agents that learn from experience, self-improve, and adapt continuously in dynamic environments.</span>
-</div>
 
 <div class="research-item">
   <span class="research-tag">Calibration & Reliability</span>

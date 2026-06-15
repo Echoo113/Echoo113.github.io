@@ -280,27 +280,32 @@
 }
 
 .hobby-item {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.35em;
+  gap: 0.3em;
   font-size: 0.82em;
   font-weight: 400;
   color: #555;
   background: #fff;
   border: 1px solid #99f6e4;
   border-radius: 20px;
-  padding: 4px 13px;
-  box-shadow: 0 1px 3px rgba(15,118,110,0.06);
+  padding: 3px 12px;
+  box-shadow: 0 1px 2px rgba(15,118,110,0.06);
+  white-space: nowrap;
 }
 
 .hobby-item em {
   color: #5eead4;
   font-style: normal;
-  font-size: 0.9em;
+  font-size: 0.88em;
 }
 
 .hobby-section {
-  margin-bottom: 0.8em;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6em;
+  margin-bottom: 0.55em;
+  flex-wrap: wrap;
 }
 
 .hobby-section:last-child {
@@ -308,26 +313,25 @@
 }
 
 .hobby-category {
-  display: block;
-  font-size: 0.72em;
+  flex-shrink: 0;
+  font-size: 0.75em;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
   color: #0f766e;
-  margin-bottom: 0.4em;
+  width: 4.5em;
 }
 
 .hobby-chips {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4em;
+  flex: 1;
 }
 
 .hobby-invite-inline {
-  font-size: 0.75em;
+  font-size: 0.72em;
   color: #0f766e;
   font-style: italic;
-  margin: 0.35em 0 0 0;
+  margin: 0.2em 0 0 5.1em;
 }
 
 /* Page title */

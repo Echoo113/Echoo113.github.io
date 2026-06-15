@@ -16,17 +16,17 @@ redirect_from:
 
 <div class="research-item">
   <span class="research-tag tag-llm-btn">LLM Post-Training</span>
-  <span class="research-desc">Developing and implementing new RL methods for post-training.</span>
+  <span class="research-desc">Develop and implement new RL methods for post-training.</span>
 </div>
 
 <div class="research-item">
   <span class="research-tag tag-calib-btn">Calibration & Reliability</span>
-  <span class="research-desc">Accurate uncertainty estimation in model outputs and trustworthy evaluation along reasoning chains — including the reliability of LLM-as-Judge frameworks.</span>
+  <span class="research-desc">Model uncertainty in LLM outputs and evaluate LLM-as-Judge reliability.</span>
 </div>
 
 <div class="research-item">
   <span class="research-tag tag-ai4s-btn">AI4Science</span>
-  <span class="research-desc">Applying machine learning to scientific domains, including time-series anomaly prediction and clinical risk modeling.</span>
+  <span class="research-desc">Build generalizable models for simulation and planning, with applications to time-series and clinical modeling.</span>
 </div>
 
 </div>

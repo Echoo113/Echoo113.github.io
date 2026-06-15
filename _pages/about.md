@@ -12,7 +12,7 @@ redirect_from:
 <p>Before Yale, I completed my B.S. in Computer Science, Mathematics, and Statistics at <strong>Purdue University</strong> (2023–2026), where I also collaborated with Prof. <a href="https://sites.google.com/site/matf0123/">Tengfei Ma</a> at Stony Brook University.</p>
 </div>
 
-<p class="open-to">I am open to coffee chats and research collaborations — whether it's brainstorming ideas, discussing research questions, or exploring potential projects together. Feel free to reach out!</p>
+<p class="open-to">I am always happy to chat — about research ideas, potential collaborations, or anything in between. Feel free to reach out!</p>
 
 <div class="research-interests">
 <h3>Research Interests</h3>

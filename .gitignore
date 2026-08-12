@@ -11,3 +11,10 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+
+# LaTeX build artifacts
+CV.aux
+CV.fdb_latexmk
+CV.fls
+CV.log
+CV.out

@@ -1,0 +1,117 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[pdftex]{hyperref}
+\definecolor{linkteal}{RGB}{0,128,128}
+\definecolor{pubtitle}{RGB}{0,70,140}
+\hypersetup{colorlinks=true, linkcolor=linkteal, urlcolor=linkteal, citecolor=linkteal}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+\usepackage{setspace}   % 控制行距
+
+
+% ---- 页面格式 ----
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% ---- 边距 ----
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+% ---- Section 样式 ----
+\titleformat{\section}{
+  \vspace{2pt}\bfseries\large\uppercase % 全大写 + 加粗
+}{}{0em}{}[\titlerule \vspace{4pt}]
+
+% ---- item 列表样式 ----
+\renewcommand{\labelitemii}{$\circ$}
+\setlist[itemize]{topsep=4pt, itemsep=2pt, leftmargin=12pt}
+
+% ---- 简历开始 ----
+\begin{document}
+\setstretch{1.15}   % 全文行距更大，适合CV
+
+% ---------- Header ----------
+\begin{center}
+    {\Large \scshape Yanan He} \\[4pt]   % 名字缩小
+    \faMapMarker\ New Haven, CT \quad \faGlobe\ https://echoo113.github.io
+\end{center}
+
+% ---------- Education ----------
+\section{Education}
+\vspace{-2mm}
+\textbf{Yale University}, New Haven, CT \hfill Aug 2026 -- May 2028 \\
+M.S. in Computer Science (\textit{Fully Funded}) \\[4pt]
+\textbf{Purdue University}, West Lafayette, IN \hfill Aug 2023 -- May 2026 \\
+B.S. in Computer Science \& Mathematics-Statistics \hfill GPA: 3.96/4.0 $\mid$ \textit{Graduated with Distinction}
+
+% ---------- Research Experience ----------
+\section{Research Experience}
+\vspace{-3mm}
+\setlength{\parindent}{0pt}
+
+\textbf{NLP Lab, Yale University} \hfill \textit{New Haven, CT} \\
+\textit{Research Assistant} $\mid$ Advisor: Arman Cohan \hfill Apr 2026 -- Present
+\begin{itemize}
+  \item LLM Post-Training -- studying existing methods (e.g., OPD, SDPO) and developing new RL methods.
+  \item LLM Evaluation, Alignment, and Long-Horizon Agents \hyperlink{pub:reflect}{[1]}
+\end{itemize}
+
+\vspace{4pt}
+\textbf{Graph Lab, Stony Brook University} \hfill \textit{Stony Brook, NY} \\
+\textit{Research Assistant} $\mid$ Advisor: Tengfei Ma \hfill May 2025 -- Apr 2026
+\begin{itemize}
+  \item Time-Series Applications -- JEPA-style architectures \hyperlink{pub:scjepa}{[2]} and causal multi-scale modeling \hyperlink{pub:caad}{[3]}
+  \item LLM Reasoning in Geometric Space -- hyperbolic latent navigation \hyperlink{pub:hyperguide}{[4]}
+\end{itemize}
+
+\section{Selected Publications}
+\vspace{-10pt}
+\begin{enumerate}[leftmargin=1.8em, itemsep=6pt, parsep=0pt]
+
+\item \hypertarget{pub:reflect}{}Time to REFLECT: Can We Trust LLM Judges for Evidence-based Research Agents? \hfill {\scriptsize \textsuperscript{*} Equal contribution.} \\
+Leyao Wang\textsuperscript{*}, \textbf{Yanan He}\textsuperscript{*}, Peng Chen, Asaf Yehudai, Yixin Liu, Rex Ying, Michal Shmueli-Scheuer, Arman Cohan \\
+\textit{arXiv:2605.19196.}
+
+\item \hypertarget{pub:scjepa}{}SC-JEPA: Stabilizing Latent Predictive Learning for Time-Series Anomaly Prediction \\
+\textbf{Yanan He}, Yunshi Wen, Xin Wang, Tengfei Ma \\
+\textit{SDM 2026; Forecast@ICML26.}
+
+\item \hypertarget{pub:caad}{}CAAD: Causality-Aware Multivariate Time Series Anomaly Detection via Multi-Scale Alignment and Structural Causal Consistency \\
+Xin Wang, Yunshi Wen, \textbf{Yanan He}, Haotian Xu, Youlan Zhao, Michel Ferreira Cardia Haddad, Tengfei Ma \\
+\textit{SIGKDD 2026 Research Track.}
+
+\item \hypertarget{pub:hyperguide}{}HyperGuide: Hyperbolic Guidance for Efficient Multi-Step Reasoning in Large Language Models \\
+Yuyu Liu, Haotian Xu, \textbf{Yanan He}, Sarang Rajendra Patil, Mengjia Xu, Tengfei Ma \\
+\textit{arXiv:2605.24140.}
+
+\end{enumerate}
+
+% ---------- Interests & Skills ----------
+\section{Interests \& Skills}
+\vspace{-2mm}
+\begin{itemize}
+  \item \textbf{Research Interests:} LLM post-training, LLM-as-Judge reliability, and foundation models for AI4Science.
+  \item \textbf{Programming Languages:} Python, Java, C/C++, Assembly, R, SQL, MATLAB, JavaScript, HTML/CSS
+  \item \textbf{Languages:} English (Professional), Chinese (Native)
+\end{itemize}
+
+
+
+
+
+
+
+
+
+\end{document}

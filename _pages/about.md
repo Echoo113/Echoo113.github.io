@@ -12,12 +12,10 @@ redirect_from:
 <p>Before Yale, I completed my B.S. in Computer Science, Mathematics, and Statistics at <strong>Purdue University</strong> (2023–2026), where I also collaborated with Prof. <a href="https://sites.google.com/site/matf0123/">Tengfei Ma</a> at Stony Brook University.</p>
 </div>
 
-<p class="open-to">I am always happy to chat — about research ideas, potential collaborations, or anything in between. Feel free to reach out!</p>
-
 <div class="research-interests">
 <h3>Research Interests</h3>
 
-<p class="mission-statement">I'm curious about why AI <strong>works</strong> when it works, why it <strong>fails</strong> when it doesn't, and how understanding those differences can help us <strong>build better models</strong>.</p>
+<p class="mission-statement">I try to <strong>understand</strong> why AI does what it does, why it sometimes <strong>doesn't</strong>, and how that understanding can help us <strong>build better models</strong>.</p>
 
 <p class="research-focus">Currently, I'm especially interested in <strong>model behavior</strong>, <strong>interpretability</strong>, and <strong>post-training</strong>.</p>
 
@@ -52,3 +50,5 @@ redirect_from:
   </div>
 </div>
 </div>
+
+<p class="open-to">I am always happy to chat — about research ideas, potential collaborations, or anything in between. Feel free to reach out!</p>

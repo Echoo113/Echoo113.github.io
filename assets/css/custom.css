@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500;1,600&display=swap');
+
 /* ============================================================
    Publication cards
    ============================================================ */
@@ -214,31 +216,53 @@
   display: inline-block;
 }
 
-.research-item {
-  display: flex;
-  gap: 0.8em;
-  margin-bottom: 0.7em;
-  align-items: flex-start;
+html[data-theme="dark"] .research-interests h3 {
+  color: #f1f5f9 !important;
 }
 
-.research-tag {
-  flex-shrink: 0;
-  font-size: 0.73em;
-  font-weight: 700;
-  border-radius: 4px;
-  padding: 2px 9px;
-  margin-top: 3px;
-  white-space: nowrap;
-}
-
-.tag-llm-btn   { background: #ede9fe; color: #6d28d9; border: 1px solid #c4b5fd; }
-.tag-calib-btn { background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa; }
-.tag-ai4s-btn  { background: #dcfce7; color: #15803d; border: 1px solid #86efac; }
-
-.research-desc {
-  font-size: 0.88em;
-  color: #444;
+.research-focus {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: 1.1em;
+  font-style: italic;
+  font-weight: 600;
+  color: #333;
   line-height: 1.65;
+  margin: 0.6em 0 0 0;
+}
+
+html[data-theme="dark"] .research-focus {
+  color: #e2e8f0 !important;
+}
+
+.mission-statement {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.35em;
+  line-height: 1.6;
+  color: #1e293b;
+  background: linear-gradient(135deg, #f8fafc 0%, #eef2ff 100%);
+  border-left: 4px solid #6366f1;
+  padding: 1em 1.3em;
+  border-radius: 0 8px 8px 0;
+  margin: 0 0 1.5em 0;
+  letter-spacing: 0.01em;
+}
+
+.mission-statement strong {
+  font-style: italic;
+  font-weight: 600;
+  color: #4338ca;
+}
+
+html[data-theme="dark"] .mission-statement {
+  color: #e2e8f0;
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+  border-left-color: #818cf8;
+}
+
+html[data-theme="dark"] .mission-statement strong {
+  color: #a5b4fc;
 }
 
 /* Beyond Research section */

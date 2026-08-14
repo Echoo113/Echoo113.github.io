@@ -17,20 +17,9 @@ redirect_from:
 <div class="research-interests">
 <h3>Research Interests</h3>
 
-<div class="research-item">
-  <span class="research-tag tag-llm-btn">LLM Post-Training</span>
-  <span class="research-desc">Develop and implement new RL methods for post-training.</span>
-</div>
+<p class="mission-statement">I'm curious about why AI <strong>works</strong> when it works, why it <strong>fails</strong> when it doesn't, and how understanding those differences can help us <strong>build better models</strong>.</p>
 
-<div class="research-item">
-  <span class="research-tag tag-calib-btn">Calibration & Reliability</span>
-  <span class="research-desc">Model uncertainty in LLM outputs and evaluate LLM-as-Judge reliability.</span>
-</div>
-
-<div class="research-item">
-  <span class="research-tag tag-ai4s-btn">AI4Science</span>
-  <span class="research-desc">Build generalizable models for simulation and planning, with applications to time-series and clinical modeling.</span>
-</div>
+<p class="research-focus">Currently, I'm especially interested in <strong>model behavior</strong>, <strong>interpretability</strong>, and <strong>post-training</strong>.</p>
 
 </div>
 

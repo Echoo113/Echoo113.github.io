@@ -17,38 +17,13 @@ redirect_from:
 
 <p class="mission-statement">I try to <strong>understand</strong> why AI does what it does, why it sometimes <strong>doesn't</strong>, and how that understanding can help us <strong>build better models</strong>.</p>
 
-<p class="research-focus">Currently, I'm especially interested in <strong>model behavior</strong>, <strong>interpretability</strong>, and <strong>post-training</strong>.</p>
+<ul class="research-list">
+  <li><strong>Model Behavior &amp; Interpretability</strong> — understanding what models internally represent and why they succeed or fail.</li>
+  <li><strong>Post-training</strong> — exploring how to make post-training both efficient and performant.</li>
+  <li><strong>Reasoning &amp; Memory</strong> — building efficient memory mechanisms that support long-horizon reasoning.</li>
+</ul>
 
 </div>
 
-<div class="about-hobbies">
-<h3>Beyond Research ✨</h3>
-<div class="hobby-section">
-  <span class="hobby-category">🎨 Arts</span>
-  <div class="hobby-chips">
-    <div class="hobby-item">🖌️ Chinese Calligraphy <em>(10+ years)</em></div>
-    <div class="hobby-item">🎻 Erhu</div>
-  </div>
-</div>
-<div class="hobby-section">
-  <span class="hobby-category">🏃 Sports</span>
-  <div class="hobby-chips">
-    <div class="hobby-item">🎾 Tennis</div>
-    <div class="hobby-item">🏸 Badminton</div>
-    <div class="hobby-item">🏊 Swimming</div>
-    <div class="hobby-item">🏃 Jogging</div>
-  </div>
-  <p class="hobby-invite-inline">Happy to play together — feel free to reach out!</p>
-</div>
-<div class="hobby-section">
-  <span class="hobby-category">🌍 Others</span>
-  <div class="hobby-chips">
-    <div class="hobby-item">✈️ Traveling</div>
-    <div class="hobby-item">📚 Reading</div>
-    <div class="hobby-item">🎬 Movies</div>
-    <div class="hobby-item">🎶 Concerts</div>
-  </div>
-</div>
-</div>
 
 <p class="open-to">I am always happy to chat — about research ideas, potential collaborations, or anything in between. Feel free to reach out!</p>

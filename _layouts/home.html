@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+{% include base_path %}
+{% assign author = site.author %}
+
+<section class="hero">
+  <img class="hero__photo" src="{{ base_path }}/images/{{ author.avatar }}" alt="Portrait of {{ author.name }}" width="148" height="148">
+  <div class="hero__text">
+    <h1 class="hero__name">{{ author.name }} <span class="hero__name-alt" lang="zh">何雅男</span></h1>
+    <p class="hero__role">M.S. student in Computer Science · {{ author.employer }}</p>
+    <ul class="hero__links">
+      {% if author.email %}<li><a href="mailto:{{ author.email }}">Email</a></li>{% endif %}
+      {% if author.googlescholar %}<li><a href="{{ author.googlescholar }}">Google Scholar</a></li>{% endif %}
+      {% if author.github %}<li><a href="https://github.com/{{ author.github }}">GitHub</a></li>{% endif %}
+      {% if author.linkedin %}<li><a href="https://www.linkedin.com/in/{{ author.linkedin }}">LinkedIn</a></li>{% endif %}
+      <li><a href="{{ base_path }}/files/CV.pdf">CV</a></li>
+    </ul>
+  </div>
+</section>
+
+{{ content }}
+
+<section class="section">
+  <div class="section__head">
+    <h2 class="section__label">Recent Publications</h2>
+    <a class="section__more" href="{{ base_path }}/publications/">All publications →</a>
+  </div>
+  <ol class="pub-list">
+    {% assign pubs = site.publications | sort: "date" | reverse %}
+    {% for pub in pubs limit: 4 %}
+      {% include pub-item.html pub=pub %}
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="section">
+  <h2 class="section__label">Academic Service</h2>
+  <dl class="facts">
+    <dt>Reviewer</dt>
+    <dd>ACL 2027 · NAACL 2027 · KDD 2027 · COLM 2026</dd>
+  </dl>
+</section>
+
+<p class="closing">I am always happy to chat — about research ideas, potential collaborations, or anything in between. <a href="mailto:{{ author.email }}">Feel free to reach out.</a></p>

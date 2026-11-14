@@ -1,0 +1,17 @@
+{% include base_path %}
+{% assign pub = include.pub %}
+<li class="pub" data-tags="{{ pub.tags | join: ',' }}">
+  <h3 class="pub__title"><a href="{{ base_path }}{{ pub.url }}">{{ pub.title }}</a></h3>
+  {% if pub.authors %}
+    <p class="pub__authors">{{ pub.authors | replace: "Yanan He", '<span class="me">Yanan He</span>' }}</p>
+  {% endif %}
+  <p class="pub__meta">
+    {% if pub.venue %}<span class="pub__venue">{{ pub.venue }}</span>{% endif %}
+    {% if pub.paperurl %}<a class="pub__link" href="{{ pub.paperurl }}">Paper</a>{% endif %}
+    {% if pub.projecturl %}<a class="pub__link" href="{{ pub.projecturl }}">Project</a>{% endif %}
+    {% if pub.codeurl %}<a class="pub__link" href="{{ pub.codeurl }}">Code</a>{% endif %}
+  </p>
+  {% if pub.cofirst or pub.corresponding %}
+    <p class="pub__note">{% if pub.cofirst %}* Equal contribution{% endif %}{% if pub.cofirst and pub.corresponding %} · {% endif %}{% if pub.corresponding %}† Co-corresponding author{% endif %}</p>
+  {% endif %}
+</li>

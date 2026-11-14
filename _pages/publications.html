@@ -2,95 +2,56 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+prose: false
 ---
-
-{% if site.author.googlescholar %}
-<p class="scholar-link">
-  Also see my <a href="{{site.author.googlescholar}}">Google Scholar profile</a>.
-</p>
-{% endif %}
 
 {% include base_path %}
 
-<!-- Search + Filter -->
-<div class="pub-controls">
-  <input type="text" id="pub-search" placeholder="Search by title or author..." oninput="filterPubs()">
-  <div class="pub-filters">
-    <button class="filter-btn active" onclick="setFilter('all', this)">All</button>
-    <button class="filter-btn tag-llm" onclick="setFilter('LLM', this)">LLM</button>
-    <button class="filter-btn tag-ts" onclick="setFilter('Time Series', this)">Time Series</button>
-    <button class="filter-btn tag-ai4s" onclick="setFilter('AI4Science', this)">AI4Science</button>
-  </div>
+<div class="pub-tabs" role="group" aria-label="Filter publications by topic">
+  <button type="button" class="pub-tab" data-filter="all" aria-pressed="true">All</button>
+  <button type="button" class="pub-tab" data-filter="LLM" aria-pressed="false">LLM</button>
+  <button type="button" class="pub-tab" data-filter="Time Series" aria-pressed="false">Time Series</button>
+  <button type="button" class="pub-tab" data-filter="AI4Science" aria-pressed="false">AI4Science</button>
 </div>
 
-<div id="pub-list">
-{% for post in site.publications reversed %}
-<div class="pub-card" data-tags="{{ post.tags | join: ',' }}" data-title="{{ post.title | downcase }}" data-authors="{{ post.authors | downcase | strip_html }}">
-  <div class="pub-title">
-    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-    {% if post.tags %}
-      {% for tag in post.tags %}
-        {% if tag == "LLM" %}<span class="pub-tag tag-llm">LLM</span>
-        {% elsif tag == "Time Series" %}<span class="pub-tag tag-ts">Time Series</span>
-        {% elsif tag == "AI4Science" %}<span class="pub-tag tag-ai4s">AI4Science</span>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-  </div>
-  {% if post.authors %}
-    {% assign highlighted = post.authors | replace: "Yanan He", '<span class="my-name">Yanan He</span>' %}
-    <div class="pub-authors">{{ highlighted }}</div>
-  {% endif %}
-  {% if post.venue %}
-    <div class="pub-venue">{{ post.venue }}</div>
-  {% endif %}
-  <div class="pub-links">
-    {% if post.paperurl %}
-      <a href="{{ post.paperurl }}" class="btn-paper">Paper</a>
-    {% endif %}
-    {% if post.projecturl %}
-      <a href="{{ post.projecturl }}" class="btn-project">Project Page</a>
-    {% endif %}
-    {% if post.codeurl %}
-      <a href="{{ post.codeurl }}" class="btn-code">Code</a>
-    {% endif %}
-  </div>
-  {% if post.cofirst or post.corresponding %}
-  <div class="pub-note">
-    {% if post.cofirst %}<span>* Equal contribution (co-first author)</span>{% endif %}
-    {% if post.corresponding %}<span>† Co-corresponding author</span>{% endif %}
-  </div>
-  {% endif %}
-</div>
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% assign groups = pubs | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for group in groups %}
+<section class="pub-year">
+  <h2 class="section__label">{{ group.name }}</h2>
+  <ol class="pub-list">
+    {% for pub in group.items %}
+      {% include pub-item.html pub=pub %}
+    {% endfor %}
+  </ol>
+</section>
 {% endfor %}
-</div>
 
-<p id="pub-empty" style="display:none; color:#888; font-size:0.9em; margin-top:1em;">No publications match your search.</p>
+{% if site.author.googlescholar %}
+<p class="closing">A complete list is also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+{% endif %}
 
 <script>
-var activeFilter = 'all';
-
-function setFilter(tag, btn) {
-  activeFilter = tag;
-  document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
-  btn.classList.add('active');
-  filterPubs();
-}
-
-function filterPubs() {
-  var query = document.getElementById('pub-search').value.toLowerCase();
-  var cards = document.querySelectorAll('.pub-card');
-  var visible = 0;
-  cards.forEach(function(card) {
-    var tags = card.getAttribute('data-tags');
-    var title = card.getAttribute('data-title');
-    var authors = card.getAttribute('data-authors');
-    var matchTag = (activeFilter === 'all') || (tags && tags.indexOf(activeFilter) !== -1);
-    var matchSearch = !query || title.indexOf(query) !== -1 || authors.indexOf(query) !== -1;
-    if (matchTag && matchSearch) { card.style.display = ''; visible++; }
-    else { card.style.display = 'none'; }
-  });
-  document.getElementById('pub-empty').style.display = visible === 0 ? '' : 'none';
-}
+  (function () {
+    var tabs = document.querySelectorAll('.pub-tab');
+    var years = document.querySelectorAll('.pub-year');
+    function apply(filter) {
+      years.forEach(function (year) {
+        var shown = 0;
+        year.querySelectorAll('.pub').forEach(function (pub) {
+          var tags = (pub.getAttribute('data-tags') || '').split(',');
+          var match = filter === 'all' || tags.indexOf(filter) !== -1;
+          pub.hidden = !match;
+          if (match) { shown++; }
+        });
+        year.hidden = shown === 0;
+      });
+    }
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        tabs.forEach(function (t) { t.setAttribute('aria-pressed', t === tab ? 'true' : 'false'); });
+        apply(tab.getAttribute('data-filter'));
+      });
+    });
+  })();
 </script>

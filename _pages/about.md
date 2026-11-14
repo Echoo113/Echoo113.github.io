@@ -26,4 +26,14 @@ redirect_from:
 </div>
 
 
+<div class="research-interests">
+<h3>Academic Service</h3>
+
+<ul class="research-list">
+  <li><strong>Reviewer:</strong> COLM 2026, KDD 2027, NAACL 2027, ACL 2027</li>
+</ul>
+
+</div>
+
+
 <p class="open-to">I am always happy to chat — about research ideas, potential collaborations, or anything in between. Feel free to reach out!</p>

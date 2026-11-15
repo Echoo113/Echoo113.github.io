@@ -9,7 +9,7 @@ layout: default
   <img class="hero__photo" src="{{ base_path }}/images/{{ author.avatar }}" alt="Portrait of {{ author.name }}" width="148" height="148">
   <div class="hero__text">
     <h1 class="hero__name">{{ author.name }} <span class="hero__name-alt" lang="zh">何雅男</span></h1>
-    <p class="hero__role">M.S. student in Computer Science · {{ author.employer }}</p>
+    <p class="hero__role">M.S. student in Computer Science (fully funded) · {{ author.employer }}</p>
     <ul class="hero__links">
       {% if author.email %}<li><a href="mailto:{{ author.email }}">Email</a></li>{% endif %}
       {% if author.googlescholar %}<li><a href="{{ author.googlescholar }}">Google Scholar</a></li>{% endif %}

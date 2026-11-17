@@ -18,10 +18,10 @@ redirect_from:
 <p class="statement">I try to <em>understand</em> why AI does what it does, why it sometimes <em>doesn't</em>, and how that understanding can help us <em>build better models</em>.</p>
 
 <dl class="facts">
+  <dt>Efficiency &amp; Post-training</dt>
+  <dd>Designing parameter-efficient fine-tuning (PEFT) methods that make post-training far cheaper without giving up performance.</dd>
   <dt>Model Behavior &amp; Interpretability</dt>
-  <dd>Understanding what models internally represent and why they succeed or fail.</dd>
-  <dt>Post-training</dt>
-  <dd>Exploring how to make post-training both efficient and performant.</dd>
+  <dd>Understanding what models internally represent, and the mechanisms behind why they succeed or fail.</dd>
   <dt>Reasoning &amp; Memory</dt>
   <dd>Building efficient memory mechanisms that support long-horizon reasoning.</dd>
 </dl>
